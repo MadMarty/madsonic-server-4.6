@@ -1,0 +1,113 @@
+/*
+ * CSS styleshet for the "2 Minutes To Midnight" theme.
+ *
+ * Author: Sindre Mehus
+ */
+
+@import "default.css";
+
+/* The primary background color. */
+.bgcolor1 {
+    background-color: #656569;
+}
+
+/* The secondary background color. */
+.bgcolor2, .ruleTableHeader, .log {
+    background-color: #4D4C52
+}
+
+/* Background color for selected header, log etc. */
+.headerSelected {
+    color: black;
+    background-color: #DDDDDD;
+}
+
+/* The primary foreground color. */
+body {
+    color: #DDDDDD;
+}
+
+/* The secondary foreground color used for h1, details etc. */
+h1, .detail, .albumComment {
+    color: #DDDDDD;
+}
+
+/* Foreground color used for h2, bold and tr. */
+h2, b, tr {
+    color: #DDDDDD;
+}
+
+/* Link color */
+a:link, a:active, a:visited, a:link *, a:active *, a:visited * {
+    color: #BAD9F2
+}
+
+/* Link hover color */
+a:hover, a:hover * {
+    text-decoration: underline;
+    color: orange;
+}
+
+/* Color for warning messages. */
+.warning {
+    color: orange;
+}
+
+/* Simple border. */
+.border1, .ruleTableHeader, .ruleTableCell, .headerSelected, .log {
+    border: 1px solid white;
+}
+
+/* Scrollbar colors (supported on IE and Opera) */
+body {
+    scrollbar-face-color: #4D4C52;
+    scrollbar-highlight-color: #656569;
+    scrollbar-shadow-color: #4D4C52;
+    scrollbar-3dlight-color: #4D4C52;
+    scrollbar-arrow-color: #656569;
+    scrollbar-track-color: #656569;
+    scrollbar-darkshadow-color: #656569;
+}
+
+.back {
+    background-image:url("../icons/midnight/back.png");background-position: 0px 3px; background-repeat:no-repeat; padding-left: 16px; line-height: 16px;
+}
+.forward {
+    background-image:url("../icons/midnight/forward.png");background-position: 0px 3px; background-repeat:no-repeat; padding-left: 16px; line-height: 16px;
+}
+
+.ruleTableCellDB {
+    border: 1px solid black;
+    white-space: nowrap;
+    font-size: 7pt;
+    margin: 1px;
+    padding: 1px;
+}
+
+
+
+/* Player images*/
+a#rewind1 {
+background-image:url("/icons/black/rewind1.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#forward1 {
+background-image:url("/icons/black/forward1.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#clear1 {
+background-image:url("/icons/black/clear1.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#shuffle {
+background-image:url("/icons/black/shuffle.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#repeat_on {
+background-image:url("/icons/black/repeat_on.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#repeat_off {
+background-image:url("/icons/black/repeat_off.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#undo {
+background-image:url("/icons/black/undo.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#settings1 {
+background-image:url("/icons/black/settings1.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;} 
+

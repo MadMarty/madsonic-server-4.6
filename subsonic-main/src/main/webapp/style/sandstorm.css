@@ -1,0 +1,66 @@
+/*
+ * CSS styleshet for the "Sandstorm" theme.
+ *
+ * Author: Sindre Mehus
+ */
+
+@import "default.css";
+
+/* The primary background color. */
+.bgcolor1 {
+    background-color: #F5F5D0
+}
+
+/* The secondary background color. */
+.bgcolor2, .ruleTableHeader, .log  {
+    background-color: #CCCC99
+}
+
+/* Link color */
+a:link, a:active, a:visited, a:link *, a:active *, a:visited * {
+    color: #057368
+}
+
+/* Link hover color */
+a:hover, a:hover * {
+    text-decoration: underline;
+    color: #DD6900
+}
+
+/* Scrollbar colors (supported on IE and Opera) */
+body {
+    scrollbar-face-color: #CCCC99;
+    scrollbar-highlight-color: #F5F5D0;
+    scrollbar-shadow-color: #CCCC99;
+    scrollbar-3dlight-color: #CCCC99;
+    scrollbar-arrow-color: #F5F5D0;
+    scrollbar-track-color: #F5F5D0;
+    scrollbar-darkshadow-color: #F5F5D0;
+}
+
+
+/* Player images*/
+a#rewind1 {
+background-image:url("../icons/silver/rewind1.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#forward1 {
+background-image:url("../icons/silver/forward1.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#clear1 {
+background-image:url("../icons/silver/clear1.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#shuffle {
+background-image:url("../icons/silver/shuffle.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#repeat_on {
+background-image:url("../icons/silver/repeat_on.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#repeat_off {
+background-image:url("../icons/silver/repeat_off.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#undo {
+background-image:url("../icons/silver/undo.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#settings1 {
+background-image:url("../icons/silver/settings1.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;} 
+
