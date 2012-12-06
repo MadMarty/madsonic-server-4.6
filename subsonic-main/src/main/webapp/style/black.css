@@ -1,0 +1,42 @@
+/*
+ * CSS styleshet for the "Back In Black" theme.
+ *
+ * Author: Sindre Mehus
+ */
+
+@import "midnight.css";
+
+/* The primary background color. */
+.bgcolor1 {
+    background-color: #333333
+}
+
+/* The secondary background color. */
+.bgcolor2, .ruleTableHeader, .log  {
+    background-color: black
+}
+
+/* Player images*/
+a#rewind1 {
+background-image:url("/icons/black/rewind1.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#forward1 {
+background-image:url("/icons/black/forward1.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#clear1 {
+background-image:url("/icons/black/clear1.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#shuffle {
+background-image:url("/icons/black/shuffle.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#repeat_on {
+background-image:url("/icons/black/repeat_on.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#repeat_off {
+background-image:url("/icons/black/repeat_off.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#undo {
+background-image:url("/icons/black/undo.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;}
+
+a#settings1 {
+background-image:url("/icons/black/settings1.png");background-position: 0px 0px; background-repeat:no-repeat; height: 24px; width: 23px; display:block;text-indent: -9999px;} 
